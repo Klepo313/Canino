@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "662534073360",
+    "firebase_url": "https://canino-8c0ce-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "canino-8c0ce",
+    "storage_bucket": "canino-8c0ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662534073360:android:43b2c0e09c01a0ff8cee95",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662534073360-622t4ni03tsftkgt9fvpjd8j1ck5ctok.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSja6vKerYoGsJzUFswO80_-MztCdeVI0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662534073360-622t4ni03tsftkgt9fvpjd8j1ck5ctok.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

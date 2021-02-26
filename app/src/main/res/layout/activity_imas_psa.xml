@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImasPsa"
+    android:background="@drawable/gradient_bck"
+    >
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="290dp"
+        android:layout_height="330dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="552dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="-35dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_undraw_dogy"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="91dp"
+        android:fontFamily="@font/montserrat_semi_bold"
+        android:text="@string/ima_li_psa"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        tools:ignore="RelativeOverlap" />
+
+    <RadioGroup
+        android:layout_width="323dp"
+        android:layout_height="167dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="138dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/da"
+            android:textSize="20sp"
+            android:paddingStart="15dp"
+            android:buttonTint="#113A21"
+            tools:ignore="RtlSymmetry" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ne" />
+    </RadioGroup>
+
+
+</RelativeLayout>

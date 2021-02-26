@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImasPsa"
+    android:background="@drawable/gradient_bck"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1100dp"
+            tools:ignore="UselessParent">
+
+            <!--
+            <ImageView
+                android:id="@+id/recinesto"
+                android:layout_width="553dp"
+                android:layout_height="543dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="-136dp"
+                android:layout_marginTop="605dp"
+                android:layout_marginEnd="-6dp"
+                android:layout_marginBottom="-115dp"
+                android:alpha="0.5"
+                android:contentDescription="@string/todo"
+                android:elevation="-1dp"
+                app:srcCompat="@drawable/ic_undraw_dogy"
+                tools:ignore="VectorDrawableCompat" />-->
+
+
+            <TextView
+                android:id="@+id/dopReg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="52dp"
+                android:layout_marginEnd="1dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="@string/dopuni_registraciju"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/imasPsaTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="137dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="@string/ima_li_psa"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                tools:ignore="RelativeOverlap" />
+
+
+            <RadioGroup
+                android:id="@+id/radgroupDaNe"
+                android:layout_width="361dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="197dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButtonDa"
+                    android:layout_width="100sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dip"
+                    android:background="@drawable/light_green_choose"
+                    android:button="@null"
+                    android:text="@string/da"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    tools:ignore="RtlSymmetry" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonNe"
+                    android:layout_width="100sp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/light_green_choose"
+                    android:button="@null"
+                    android:text="@string/ne"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    tools:ignore="RtlSymmetry" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/imepsaTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="273dp"
+                android:layout_marginEnd="0dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="@string/kako_se_zove"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                tools:ignore="RelativeOverlap" />
+
+            <TextView
+                android:id="@+id/ime_pasmina"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="408dp"
+                android:layout_marginEnd="0dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="@string/koje_je_pasmine"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                tools:ignore="RelativeOverlap" />
+
+            <TextView
+                android:id="@+id/godineTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="547dp"
+                android:layout_marginEnd="0dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="@string/kada_se_okotio"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                tools:ignore="RelativeOverlap" />
+
+            <TextView
+                android:id="@+id/onjemuTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="689dp"
+                android:layout_marginEnd="0dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="@string/reci_ne_to_o_njemu"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                tools:ignore="RelativeOverlap" />
+
+
+            <EditText
+                android:id="@+id/edtInput"
+                android:layout_width="303dp"
+                android:layout_height="156dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="32dp"
+                android:layout_marginBottom="187dp"
+                android:autofillHints=""
+                android:background="@drawable/custom_input"
+                android:contentDescription="@string/todo"
+                android:ems="10"
+                android:fontFamily="@font/montserrat_medium"
+                android:gravity="top"
+                android:inputType="textCapSentences|textMultiLine"
+                android:lines="6"
+                android:maxLength="2000"
+                android:maxLines="6"
+                android:paddingStart="15dp"
+                android:paddingTop="12dp"
+                android:textColor="@color/white"
+                tools:ignore="ContentDescription,LabelFor,RtlSymmetry" />
+
+            <EditText
+                android:id="@+id/editTextNumberStarostPsa"
+                android:layout_width="305sp"
+                android:layout_height="55sp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="31dp"
+                android:layout_marginTop="606dp"
+                android:autofillHints=""
+                android:background="@drawable/custom_input"
+                android:contentDescription="@string/todo"
+                android:drawableStart="@drawable/ic_round_calendar_today_24"
+                android:drawablePadding="13dp"
+                android:ems="10"
+                android:fontFamily="@font/montserrat_medium"
+                android:inputType="date"
+                android:paddingStart="15dp"
+                android:textColor="#fff"
+                android:textColorHint="#ffffff"
+                tools:ignore="ContentDescription,LabelFor,RtlSymmetry,TextFields,UnknownIdInLayout" />
+
+            <EditText
+                android:id="@+id/editTextTextPasmina"
+                android:layout_width="140sp"
+                android:layout_height="50sp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="471dp"
+                android:autofillHints=""
+                android:background="@drawable/custom_input"
+                android:contentDescription="@string/todo"
+                android:drawableStart="@drawable/ic_cocker_spaniel__1_"
+                android:drawablePadding="13dp"
+                android:ems="10"
+                android:fontFamily="@font/montserrat_medium"
+                android:hint="@string/pudl"
+                android:inputType="text"
+                android:paddingStart="15dp"
+                android:textColor="#fff"
+                android:textColorHint="#ffffff"
+                tools:ignore="ContentDescription,LabelFor,RtlSymmetry,UnknownIdInLayout" />
+
+            <EditText
+                android:id="@+id/editTextTextImePsa"
+                android:layout_width="140sp"
+                android:layout_height="50sp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="334dp"
+                android:autofillHints=""
+                android:background="@drawable/custom_input"
+                android:contentDescription="@string/todo"
+                android:drawableStart="@drawable/ic_dogwalking"
+                android:drawablePadding="13dp"
+                android:ems="10"
+                android:fontFamily="@font/montserrat_medium"
+                android:hint="@string/loki"
+                android:inputType="text"
+                android:paddingStart="15dp"
+                android:textColor="#fff"
+                android:textColorHint="#ffffff"
+                tools:ignore="ContentDescription,LabelFor,RtlSymmetry,UnknownIdInLayout" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/daljeBtn"
+                android:layout_width="145dp"
+                android:layout_height="70dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="33dp"
+                android:layout_marginBottom="54dp"
+                android:backgroundTint="#fff"
+                android:baselineAligned="false"
+                android:contentDescription="@string/todo"
+                android:text="@string/objavi"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                app:cornerRadius="10sp"
+                app:fabSize="auto" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+<!--
+
+
+-->
+
+</ScrollView>
