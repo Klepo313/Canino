@@ -9,25 +9,25 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="340sp"
-        android:layout_height="wrap_content"
+        android:layout_width="380dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="100dp"
         android:fontFamily="@font/montserrat_bold"
         android:shadowColor="@color/black"
         android:text="@string/prijavi_se_svojim_canino_ra_unom"
         android:textAlignment="center"
-        android:textColor="@color/white"
+        android:textColor="#F9F9F9"
         android:textSize="40sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.047" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
         android:layout_width="301sp"
         android:layout_height="48sp"
+        android:layout_marginTop="30dp"
         android:autofillHints="nekalozinka"
         android:background="@drawable/custom_input"
         android:drawableStart="@drawable/ic_lock_icon"
@@ -39,18 +39,16 @@
         android:paddingStart="10dp"
         android:textColor="#fff"
         android:textColorHint="#ffffff"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.472"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.478"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
         tools:ignore="RtlSymmetry" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
         android:layout_width="301sp"
         android:layout_height="48sp"
+        android:layout_marginTop="90dp"
         android:autofillHints="ime@domena"
         android:background="@drawable/custom_input"
         android:drawableStart="@drawable/ic_mail_icon"
@@ -62,26 +60,20 @@
         android:paddingStart="10dp"
         android:textColor="#fff"
         android:textColorHint="#ffffff"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.472"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.224"
         tools:ignore="RtlSymmetry" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="19dp"
-        android:layout_marginEnd="48dp"
         android:text="@string/zaboravio_si_lozinku"
         android:textColor="#fAfAFA"
         android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
-        app:layout_constraintVertical_bias="0.032"
         tools:ignore="SmallSp" />
 
     <!--
@@ -100,25 +92,11 @@
         app:layout_constraintTop_toBottomOf="@+id/btnPrijava"
         app:layout_constraintVertical_bias="0.381" />-->
 
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/montserrat_bold"
-        android:text="@string/prijava"
-        android:textColor="#fff"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.457" />
-
     <EditText
         android:id="@+id/editTextTextPassword3"
-        android:layout_width="138dp"
+        android:layout_width="142dp"
         android:layout_height="50dp"
+        android:layout_marginTop="30dp"
         android:autofillHints="nista"
         android:background="@drawable/google_button"
         android:drawableStart="@drawable/ic_google"
@@ -130,18 +108,15 @@
         android:paddingStart="20dp"
         android:textColor="#fff"
         android:textColorHint="#ffffff"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.787"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.614"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
         tools:ignore="RtlSymmetry" />
 
     <EditText
         android:id="@+id/editTextTextPassword2"
-        android:layout_width="150sp"
-        android:layout_height="50sp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
         android:autofillHints="nista"
         android:background="@drawable/facebook_button"
         android:drawableStart="@drawable/ic_facebook"
@@ -152,27 +127,11 @@
         android:paddingStart="9dp"
         android:textColor="#fff"
         android:textColorHint="#ffffff"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.199"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.614"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPassword3"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
         tools:ignore="RtlSymmetry" />
-
-    <Button
-        android:id="@+id/btnReg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="?android:attr/selectableItemBackground"
-        android:text="@string/napravi_canino_korisni_ki_ra_un"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.509"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.893" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnPrijava"
@@ -184,13 +143,34 @@
         android:textColor="@color/black"
         android:textSize="19sp"
         app:cornerRadius="13sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.764"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword3"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword2"
+        app:layout_constraintTop_toBottomOf="parent"
         tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/btnPrij"
+        android:layout_width="155dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="85dp"
+        android:backgroundTint="#F3F1F1"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Prijava"
+        android:textColor="#585858"
+        android:textSize="19sp"
+        app:cornerRadius="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword3"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
+
+    <TextView
+        android:id="@+id/tvReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Napravi račun!"
+        android:textColor="#EFEFEF"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
